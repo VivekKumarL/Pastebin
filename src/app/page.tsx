@@ -93,7 +93,7 @@ export default function HomePage() {
               onClick={() => setCreatedPaste(null)}
               className="w-full py-2 px-4 border border-gray-300 rounded-lg text-gray-700 hover:bg-gray-50"
             >
-              Create Another Paste
+              Create Another Link
             </button>
           </div>
         ) : (
