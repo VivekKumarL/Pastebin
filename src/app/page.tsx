@@ -63,7 +63,7 @@ export default function HomePage() {
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md mx-auto">
         <div className="text-center mb-10">
-          <h1 className="text-4xl font-bold text-gray-900 mb-2">Pastebin Lite</h1>
+          <h1 className="text-4xl font-bold text-gray-900 mb-2">Pastebin App</h1>
           <p className="text-gray-600">Create and share text snippets with optional expiry</p>
         </div>
 
@@ -161,7 +161,7 @@ export default function HomePage() {
                 disabled={loading || !content.trim()}
                 className="w-full py-3 px-4 bg-blue-600 text-white font-medium rounded-lg hover:bg-blue-700 disabled:opacity-50 disabled:cursor-not-allowed"
               >
-                {loading ? 'Creating...' : 'Create Paste'}
+                {loading ? 'Creating...' : 'Create Shareable Link'}
               </button>
             </form>
           </div>
