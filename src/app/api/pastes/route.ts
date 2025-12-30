@@ -51,10 +51,9 @@ export async function POST(request: NextRequest) {
     const expiresAt = calculateExpiry(ttl_seconds);
     
     // Use environment variable or default for production
-    const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 
-                   (process.env.NODE_ENV === 'production' 
-                     ? `https://${process.env.VERCEL_URL}` 
-                     : 'http://localhost:3000');
+     const baseUrl = process.env.NEXT_PUBLIC_APP_URL || 
+                    `https://${process.env.VERCEL_URL}` || 
+                    (request.headers.get('origin') || 'http://localhost:3000');
     
     const url = `${baseUrl}/p/${id}`;
 
@@ -101,4 +100,5 @@ export async function POST(request: NextRequest) {
     { status: statusCode }
   );
 }
+
 }
