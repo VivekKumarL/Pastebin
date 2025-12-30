@@ -69,7 +69,7 @@ export default function HomePage() {
 
         {createdPaste ? (
           <div className="bg-white rounded-lg shadow p-6 mb-6">
-            <h2 className="text-xl font-semibold text-green-600 mb-4">✓ Paste Created!</h2>
+            <h2 className="text-xl font-semibold text-green-600 mb-4">✓ Link Created!</h2>
             <div className="mb-4">
               <label className="block text-sm font-medium text-gray-700 mb-1">
                 Share this URL:
@@ -98,7 +98,7 @@ export default function HomePage() {
           </div>
         ) : (
           <div className="bg-white rounded-lg shadow p-6">
-            <h2 className="text-2xl font-bold text-gray-900 mb-6">Create New Paste</h2>
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Create New Link</h2>
             
             {error && (
               <div className="mb-4 p-3 bg-red-50 border border-red-200 rounded-lg">
