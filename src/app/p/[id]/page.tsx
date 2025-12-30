@@ -36,8 +36,8 @@ export default async function PastePage({ params }: PageProps) {
     <div className="min-h-screen bg-gray-50 py-8 px-4">
       <div className="max-w-4xl mx-auto">
         <header className="mb-8">
-          <h1 className="text-3xl font-bold text-gray-900">Pastebin </h1>
-          <p className="text-gray-600 mt-2">Paste ID: {id}</p>
+          <h1 className="text-3xl font-bold text-gray-900">Pastebin App</h1>
+          <p className="text-gray-600 mt-2">Content ID: {id}</p>
         </header>
         
         <main className="bg-white rounded-lg shadow p-6">
@@ -59,7 +59,7 @@ export default async function PastePage({ params }: PageProps) {
               href="/"
               className="text-blue-600 hover:text-blue-800 font-medium"
             >
-              ← Create another paste
+              ← Create another link
             </a>
           </div>
         </main>
@@ -68,3 +68,4 @@ export default async function PastePage({ params }: PageProps) {
   );
 
 }
+
