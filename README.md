@@ -4,11 +4,11 @@ A simple pastebin-like application for creating and sharing text snippets with o
 
 ## Deployed URL
 
-[https://pastebin.vercel.app](https://pastebin.vercel.app)
+[https://pastebin-lovat.vercel.app/](https://pastebin-lovat.vercel.app)
 
 ## Git Repository
 
-[https://github.com/yourusername/pastebin](https://github.com/yourusername/pastebin)
+[https://github.com/VivekKumarL/Pastebin](https://github.com/VivekKumarL/Pastebin)
 
 ## Project Description
 
@@ -160,4 +160,5 @@ PostgreSQL with Neon - Provides durable, ACID-compliant storage that works perfe
 5. **Clean Architecture**: Separation of concerns with clear API and UI layers
 
 This application meets all functional requirements specified in the assignment and is ready for automated testing.
+
 
