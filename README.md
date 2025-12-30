@@ -12,7 +12,7 @@ A simple pastebin-like application for creating and sharing text snippets with o
 
 ## Project Description
 
-Pastebin Lite is a web application that allows users to:
+Pastebin is a web application that allows users to:
 
 - Create text pastes with optional constraints (time-based expiry and view limits)
 - Receive a shareable URL for each paste
@@ -160,3 +160,4 @@ PostgreSQL with Neon - Provides durable, ACID-compliant storage that works perfe
 5. **Clean Architecture**: Separation of concerns with clear API and UI layers
 
 This application meets all functional requirements specified in the assignment and is ready for automated testing.
+
